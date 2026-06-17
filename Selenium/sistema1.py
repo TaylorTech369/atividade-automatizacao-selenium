@@ -10,13 +10,6 @@ navegador.maximize_window()
 
 time.sleep(0.5)
 
-# objetivo da automação do Sistema1:
-# criar conta,
-# fazer login, 
-# excluir as contas até restarem uma,
-# tirar printscreen.
-# fazer logout.
-
 navegador.find_element(By.ID, "goRegister").click()
 
 time.sleep(1)

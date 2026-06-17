@@ -10,25 +10,6 @@ navegador.maximize_window()
 
 time.sleep(2)
 
-# Criar Conta
-
-# id="name"
-# id="email"
-# id="password"
-# ---
-# id="depositInput"
-# id="depositButton"
-# ---
-# id="productsTabButton"
-# Adicionar ao Carrinho
-# (ok mensagem)
-# ---
-# Carrinho
-# class="checkout"
-# id="finishButton"
-# (printScreen)
-# (ok mensagem)
-
 navegador.find_element(By.XPATH, "//*[contains(text(), 'Criar Conta')]").click()
 
 time.sleep(1)
@@ -70,12 +51,6 @@ navegador.save_screenshot("printScreenSistema2-1.png")
 navegador.find_element(By.ID, "finishButton").click()
 navegador.switch_to.alert.accept()
 
-# time.sleep(1)
-
 # navegador.save_screenshot("printScreenSistema2-2.png")
 
 time.sleep(3)
-
-
-
-# navegador.save_screenshot("printScreenSistema2.png")
